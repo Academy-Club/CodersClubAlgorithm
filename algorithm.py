@@ -11,4 +11,4 @@ gitHubScore = repoSignificanceFactor * repoAgingFactor * repoSlocFactor
 
 stackOverFlowScore = 10 # stackoverflow score coming directly from StackOverFlow API
 
-totalScore = gitHubScore + stackOverFlowScore
+totalScore = 0.8 * gitHubScore + 0.2 * stackOverFlowScore # 80% GitHub, 20% Stackoverflow coefficient
